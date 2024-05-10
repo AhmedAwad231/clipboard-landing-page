@@ -130,7 +130,7 @@ section p{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 120px;
+    gap: 70px;
 }
 footer{
     background-color: rgb(245, 246, 248);
@@ -165,6 +165,11 @@ footer{
     color: var(--Strong-Cyan);
 }
 @media screen and (max-width:992px) {
+    body{
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
     .head-text h1{
         max-width: 90%;
         margin: auto;
