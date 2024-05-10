@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Bai Jamjuree", sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
 }
 :root{
     --Strong-Cyan: hsl(171, 66%, 44%);
@@ -16,6 +19,9 @@ a{
     color: var(--Dark-Grayish-Blue);
     padding-right:90px;
     transition: all .3s ease-in-out;
+}
+body{
+    overflow-x: hidden;
 }
 .text-align{
     text-align: center; 
@@ -131,6 +137,7 @@ section p{
     justify-content: center;
     align-items: center;
     gap: 70px;
+    flex-wrap: wrap;
 }
 footer{
     background-color: rgb(245, 246, 248);
@@ -164,11 +171,7 @@ footer{
     cursor: pointer;
     color: var(--Strong-Cyan);
 }
-@media screen and (max-width:992px) {
-    body{
-        width: 100vw;
-        height: 100vh;
-    }
+@media (max-width:992px) {
     .head-text h1{
         max-width: 90%;
         margin: auto;
@@ -221,7 +224,7 @@ footer{
         margin: 10px 0;
     }
 }
-@media screen and (max-width:768px) {
+@media (max-width:420px) {
     .btns{
         margin: 10px auto;
     }
