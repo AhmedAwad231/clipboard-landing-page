@@ -217,7 +217,7 @@ footer{
         margin: 10px 0;
     }
 }
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px) {
     .btns{
         margin: 10px auto;
     }
