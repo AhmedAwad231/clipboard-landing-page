@@ -168,7 +168,6 @@ footer{
     body{
         width: 100vw;
         height: 100vh;
-        overflow: hidden;
     }
     .head-text h1{
         max-width: 90%;
