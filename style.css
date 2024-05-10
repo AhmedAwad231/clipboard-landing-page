@@ -164,7 +164,7 @@ footer{
     cursor: pointer;
     color: var(--Strong-Cyan);
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:992px) {
     .head-text h1{
         max-width: 90%;
         margin: auto;
